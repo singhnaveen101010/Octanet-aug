@@ -1,0 +1,293 @@
+body{
+    margin:0;
+    background-color:black;
+    padding:20px ;
+}
+.container{
+    border-radius: 20px;
+    padding:10px 50px;
+}
+
+.navbar {
+    
+   font-family: 'Itim', cursive;
+    display:flex;
+    justify-content:space-between;
+    min-width: content;
+   
+    
+
+}
+.navbar-left{
+    padding:2px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+   
+    
+}
+.navbar-right{
+    display:flex;
+    justify-content:flex-end;
+    gap:1rem;
+    align-items: center;
+    
+}
+
+
+.brandname{
+    font-family: 'Itim', cursive;
+    margin:0 0 0 0.5rem;
+    color:black;
+    font-size:1.5rem;
+    
+    
+}
+.brandname:hover{
+    color:white;
+}
+.logo{
+    float:left;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+a{
+    text-decoration: none;
+    color:#8062D6;
+    padding:0 10px;
+    border-radius:30%;
+    
+}
+
+.brandbtn{
+    padding:10px 20px;
+    background-color:#8062D6;
+    border-radius:34px;
+    border-width:0;
+    color:black;
+}
+.login{
+    background-color:#9c30c6;
+    border-radius:25px;
+    border-width:0;
+    color:black;
+   padding:10px;
+    
+}
+.rent{
+    background-color:black;
+    border-radius:25px;
+    border-width:0;
+    color:#8062D6;
+   padding:20px;
+
+}
+.rent:hover{
+    color:white;
+}
+.login:hover{
+    color:white; 
+}
+
+a:hover{
+    color:white;
+    background-color: #8062D6;
+    
+}
+.heading{
+    background-image: linear-gradient(to right, #8062D6 , #9c30c6);
+    background-color:#8062D6;
+    color:black;
+    font-family: 'Chakra Petch', sans-serif;
+    
+    padding:20px;
+    border-radius:20px;
+   
+}
+.heading h1{
+    font-size:3rem;
+    
+}
+.headingimg{
+    height:50vh;
+    width:30%;
+    float:right;
+}
+h2{
+    font-size:2rem;
+}
+.testtitle{
+    color:black;
+    font-family: 'Chakra Petch', sans-serif;
+    background-image: linear-gradient(to right, #8062D6, #9c30c6 );
+    border-radius:20px;
+    display:flex;
+    padding-left:10px;
+}
+.testimonials{
+    
+    background-image: url(./images/books-gb51879d17_1920.jpg);
+    padding:20px 0;
+    border-radius:20px;
+    background-color: black;
+    display:grid;
+    grid-template-rows:repeat(7,1fr) ;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    margin-top:20px;
+    padding:20px;
+}
+
+
+.testitem{
+    padding:20px;
+    
+    border-radius:60px;
+    color:black;
+    font-family: 'Chakra Petch', sans-serif;
+    
+ }
+.one{
+    background-color:#8062D6; 
+  grid-area:1/1/4/2;
+}
+.two{
+  grid-area:3/2/6/3;
+  background-color:#9c30c6;
+}
+.three{
+    grid-area:5/1/8/2;
+    background-color:#8062D6;
+}
+.testimg{
+    float:left;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+.pricing{
+    display:flex;
+    margin-top:20px;
+    justify-content:center;
+    gap:50px;
+    
+}
+@media(max-width:720px){
+    .pricing{
+         display:block;
+   }
+   .priceitem{
+     margin:20px 0;
+    
+   }
+}
+.priceitem{
+    background-color:#8062D6;
+    color:black;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.foot{
+   
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:20px;
+    border-color:#8062D6;
+    border-width: 20px;
+    padding:20px;
+     height:20vh;
+     gap:20px;
+
+}
+.foot>a{
+    
+    color:#8062D6;
+    padding:10px;
+    border-radius:10px;
+    
+    
+}
+
+.footimg{
+  
+    height:25px;
+    width:25px;
+    
+}
+.foot p{
+    color:#8062D6;
+}
+.foot p:hover{
+    color:white;
+}
+
+.alignin{
+    text-align: center;;
+}
+.testheadimg{
+    height:60px;
+    width:60px;
+    margin:10px;
+}
+footer{
+    font-family: 'Itim', cursive;
+}
+@media  (max-width:720px){
+    .container{
+        padding:10px 0;
+        border-radius:0;
+     }
+    .navbar{
+        display:block;}
+       
+        
+        
+    
+    .navbar-right{
+        display:block;
+        margin:0;
+        
+    }
+    .navbar-left{
+        display:block;
+       margin:0;
+    }
+    .testimonials{
+        border-radius:60px;
+        display:block;}
+        .testitem{
+            margin:20px 0;
+        }
+    .navbar p{
+        margin:0;
+    }
+    .navbar a{
+        margin:1px;
+        
+        padding:0;
+    }
+    .navbar button{
+        margin:1px;
+    }
+    .heading h1{
+        font-size:1rem;
+        
+    }
+    h2{
+        font-size:1.5rem;
+        
+    }
+   
+    .headingimg{
+        height:auto;
+        width:30%;
+        float:right;
+    }
+}
