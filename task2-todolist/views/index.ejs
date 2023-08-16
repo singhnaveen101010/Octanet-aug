@@ -1,0 +1,26 @@
+ <%- include("header.ejs") %>
+   
+   <div class="listcontainer">
+    <% if(locals.list){ %>
+      <% if(locals.list.length !=0){ var index=0; %>
+         <% list.forEach(element => { %>
+          <div id="minus<%=index%>container" class="list-item">
+             <h2 ><%= list[index] %></h2> 
+              <div class="icon "> 
+                <img id="" class="minus<%=index%> delete" style="width:50px; height:50px" src="./images/minus.png" alt=""></div> 
+         </div>
+         <% index++;}); %>  
+         <% } else { %>
+          <h1>no task found !!</h1>
+        <% } %>  
+            
+
+       
+        
+        
+         <% } else { %>
+          <h1>choose type</h1>
+        <% } %>   
+    </div>
+    
+    <%- include("footer.ejs") %>

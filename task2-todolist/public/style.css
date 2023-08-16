@@ -1,0 +1,145 @@
+body{
+    
+    margin:0;
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.navbar{
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border:1px solid black;
+    gap:20px;
+    align-content: center;
+    padding:50px;
+    justify-content: space-between;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:wrap;
+    gap:10px;
+    
+}
+
+
+
+.right{
+    
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:white;
+    
+}
+a{  color:white;
+    text-decoration: none;
+  
+}
+.btn{
+    background-color:#BEADFA;
+    border:none;
+    border-radius:20px;
+    padding: 1rem 1.5rem;
+    color:white;
+    
+}
+/* .btn:hover{
+    cursor: pointer;
+} */
+
+.list-item{
+   width:250px;
+   height:250px;
+   background-color:pink;
+   border-radius:20px;
+}
+.listcontainer{
+   
+    margin-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+    justify-content: center;
+    padding:20px;
+    gap:60px;
+    color:white;
+    
+}
+.list-item{
+    width:250px;
+    height:250px;
+    background-color:#D0BFFF;
+    border-radius:20px;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    align-items:center;
+    text-align:center;}
+
+.icon{
+    position:absolute;
+    right: 10px;
+    bottom:5px;
+}
+.list-item>h2{
+    padding:5px
+}
+.formcontainer{
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:5%;
+    border-radius:20px;
+} 
+.form{
+    background-color:#BEADFA;
+    display:block;
+    padding:10%;
+    border-radius:20% 30% 70% 40%;
+}
+button{
+    background-color:#BEADFA;
+    border:none;
+}
+button:hover{
+    cursor:pointer;
+}
+input{
+    width:100%;
+    height:100px;
+    border:none;
+    border-radius: 20px;
+    color:#BEADFA;
+    text-align:end;
+    font-family: 'Manrope', sans-serif;
+   font-size:1.5rem;
+   margin:10px;
+   text-align:end;
+  
+}
+::placeholder{
+    color:#BEADFA;
+    text-align: end;
+}
+.deleted{
+    opacity: 0.2;
+}
+
+/* .btncontainer.clicked{
+    background-image:linear-gradient(to right,rgba(52, 102, 209, 0.912),rgb(85, 167, 215));
+   
+} */
+.listcontainer>h1{
+    color:#BEADFA;
+    font-size:2rem;
+}

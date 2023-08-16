@@ -1,0 +1,17 @@
+   <%- include("header.ejs") %>
+    <div class="formcontainer">
+          <div class="form"><form action="/add" method="post">
+            <input type="text" placeholder="what do want to add?" name="toadd">
+            <input type="text" placeholder="day or work?" name="wheretoadd">
+            <button type="submit">
+                <div > 
+                    <img style="width:50px; height:50px; margin-top:10px" src="./images/plus.png" alt=addimg"></div>
+            </button>
+            
+         
+            </form></div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+            <script src="index.js"></script>
+    </div>
+  <%- include("footer.ejs") %>
