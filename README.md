@@ -1,1 +1,4 @@
-make sure to download the npm packages, you can look at the dependencies in package.json files.
+download the dependencies use command: npm i express ejs body-parser
+host the website locally: node index.js
+notice the terminal says "listening at 3000"
+go to browser and enter in the url section: localhost:3000
